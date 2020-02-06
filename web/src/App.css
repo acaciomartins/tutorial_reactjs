@@ -1,7 +1,0 @@
-#app {
-  display: flex;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-top: 60px;
-  flex-direction: column;
-}
