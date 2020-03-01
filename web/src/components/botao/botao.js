@@ -3,9 +3,13 @@ import './botao.css';
 
 function Botao(props) {
     return (
-        <li>
+        <li className={props.estilo}>
             <button
-                className={props.estilo}>{props.valor}</button>
+                value={props.valor}
+                className={`digito ${props.estilo}`}
+                onClick={props.acao}>
+                {props.valor}
+            </button>
         </li>
 
 
